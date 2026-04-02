@@ -1,4 +1,5 @@
 # fyxical-poc
+<img width="428" height="161" alt="Screenshot 2026-04-02 at 6 29 12 AM" src="https://github.com/user-attachments/assets/55a007f5-91bd-4be3-9d2f-8a82107b0272" />
 Proof of concept for rule-based clinical decision support in physical therapy
 
 ## Overview
