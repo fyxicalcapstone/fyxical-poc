@@ -1,0 +1,501 @@
+patient_id,age,sex,race_ethnicity,occupation_type,work_related_injury,region_census,division_census,is_lower_back_pain,pain_duration_weeks,pain_duration_category,pain_severity_score_0_10,pain_severity_category,osw_baseline_s1_pain_intensity,osw_baseline_s2_personal_care,osw_baseline_s3_lifting,osw_baseline_s4_walking,osw_baseline_s5_sitting,osw_baseline_s6_standing,osw_baseline_s7_sleeping,osw_baseline_s8_social_life,osw_baseline_s9_traveling,osw_baseline_s10_employment,osw_baseline_raw_score,osw_baseline_percent_disability,osw_baseline_disability_category
+P001,56,Female,White,Service,No,South,West South Central,Yes,1.8,Acute,6,Moderate,2,3,2,2,2,0,0,1,1,2,15,30,Moderate
+P002,45,Female,White,Desk_office,No,South,South Atlantic,Yes,1.4,Acute,2,Mild,0,2,2,0,2,1,1,0,2,0,10,20,Moderate
+P003,79,Female,White,Desk_office,Unsure,West,Pacific,Yes,11.3,Subacute,9,Severe,3,3,2,2,3,4,3,1,3,3,27,54,Severe
+P004,18,Male,White,Manual_labor,No,Northeast,New England,Yes,41.2,Chronic,7,Severe,3,4,2,3,4,2,4,5,3,1,31,62,Crippled
+P005,52,Male,Black,Service,No,West,Mountain,Yes,1.6,Acute,3,Mild,0,2,2,1,0,0,0,2,1,1,9,18,Minimal
+P006,39,Female,Black,Desk_office,Yes,South,East South Central,Yes,25,Chronic,0,Mild,0,1,1,0,1,1,1,1,0,1,7,14,Minimal
+P007,68,Male,White,Desk_office,Yes,South,South Atlantic,Yes,0.9,Acute,6,Moderate,0,2,2,4,2,2,2,1,3,3,21,42,Severe
+P008,76,Male,Hispanic_Latino,Manual_labor,Unsure,South,West South Central,Yes,1.8,Acute,5,Moderate,3,2,1,1,3,3,1,2,2,3,21,42,Severe
+P009,56,Female,White,Desk_office,Yes,West,Pacific,Yes,21.1,Chronic,3,Mild,2,4,1,1,0,2,2,0,2,2,16,32,Moderate
+P010,28,Female,Hispanic_Latino,Healthcare,No,Midwest,East North Central,Yes,12.2,Chronic,1,Mild,0,0,1,1,1,0,2,2,1,0,8,16,Minimal
+P011,76,Male,White,Desk_office,Unsure,South,East South Central,Yes,29.4,Chronic,4,Moderate,2,5,3,1,1,2,2,3,2,2,23,46,Severe
+P012,52,Female,White,Desk_office,Yes,Midwest,East North Central,Yes,1.3,Acute,8,Severe,4,2,2,2,2,2,3,5,2,1,25,50,Severe
+P013,67,Female,Asian,Manual_labor,No,West,Mountain,Yes,1.1,Acute,2,Mild,0,0,1,0,1,0,0,1,1,1,5,10,Minimal
+P014,69,Male,White,Manual_labor,No,West,Pacific,Yes,1.4,Acute,0,Mild,1,0,0,1,0,0,0,2,3,0,7,14,Minimal
+P015,18,Male,White,Desk_office,No,South,South Atlantic,Yes,11.5,Subacute,9,Severe,5,3,3,2,2,3,3,2,2,4,29,58,Severe
+P016,79,Male,White,Healthcare,No,Northeast,New England,Yes,1.9,Acute,4,Moderate,3,4,2,3,3,3,1,2,2,2,25,50,Severe
+P017,29,Male,Other,Service,Yes,Northeast,New England,Yes,2.4,Subacute,6,Moderate,2,2,1,3,2,1,3,2,3,3,22,44,Severe
+P018,74,Female,White,Manual_labor,No,South,East South Central,Yes,7.8,Subacute,10,Severe,3,4,4,4,4,3,4,3,3,3,35,70,Crippled
+P019,69,Female,Black,Manual_labor,No,Midwest,East North Central,Yes,1.9,Acute,9,Severe,3,2,3,2,4,3,2,3,3,2,27,54,Severe
+P020,61,Female,Hispanic_Latino,Manual_labor,Yes,South,West South Central,Yes,15.3,Chronic,2,Mild,2,1,1,1,1,2,2,0,0,1,11,22,Moderate
+P021,56,Male,Hispanic_Latino,Desk_office,No,Northeast,Middle Atlantic,Yes,9.4,Subacute,9,Severe,4,4,3,3,2,2,3,3,3,4,31,62,Crippled
+P022,28,Female,White,Healthcare,Yes,Northeast,New England,Yes,30.2,Chronic,5,Moderate,3,1,2,1,2,1,2,1,1,1,15,30,Moderate
+P023,45,Male,Other,Other,No,South,South Atlantic,Yes,8,Subacute,4,Moderate,1,4,3,2,0,3,2,3,0,1,19,38,Moderate
+P024,65,Male,Black,Manual_labor,No,West,Mountain,Yes,49.8,Chronic,7,Severe,2,2,2,2,3,3,0,3,2,4,23,46,Severe
+P025,18,Female,Black,Service,No,Northeast,New England,Yes,9.8,Subacute,6,Moderate,2,2,0,3,3,2,2,0,2,3,19,38,Moderate
+P026,72,Female,Black,Service,No,West,Mountain,Yes,6.6,Subacute,7,Severe,2,2,1,4,1,5,1,4,2,4,26,52,Severe
+P027,21,Male,Hispanic_Latino,Manual_labor,No,Midwest,West North Central,Yes,1.7,Acute,5,Moderate,2,1,1,1,4,2,1,2,2,2,18,36,Moderate
+P028,18,Male,Black,Other,No,West,Pacific,Yes,26.8,Chronic,4,Moderate,2,1,2,3,1,0,2,2,2,1,16,32,Moderate
+P029,34,Male,White,Desk_office,No,South,East South Central,Yes,31.9,Chronic,2,Mild,1,3,2,3,0,0,1,2,1,0,13,26,Moderate
+P030,23,Female,White,Desk_office,Yes,Midwest,West North Central,Yes,15.5,Chronic,10,Severe,0,4,3,3,3,3,2,2,4,3,27,54,Severe
+P031,32,Female,White,Service,Yes,West,Pacific,Yes,7.1,Subacute,6,Moderate,3,3,2,1,2,2,0,3,4,0,20,40,Severe
+P032,27,Female,White,Service,No,South,South Atlantic,Yes,1.2,Acute,6,Moderate,3,2,2,1,2,2,3,2,2,2,21,42,Severe
+P033,31,Female,Hispanic_Latino,Desk_office,Yes,South,East South Central,Yes,10.8,Subacute,6,Moderate,3,2,3,4,4,0,1,0,1,2,20,40,Severe
+P034,57,Female,White,Service,No,Midwest,West North Central,Yes,1.8,Acute,5,Moderate,2,2,2,1,3,1,2,2,2,2,19,38,Moderate
+P035,50,Male,White,Manual_labor,No,South,West South Central,Yes,18,Chronic,4,Moderate,3,3,2,4,1,1,0,3,3,2,22,44,Severe
+P036,29,Female,White,Desk_office,No,South,West South Central,Yes,34.6,Chronic,10,Severe,2,4,2,3,3,3,2,2,4,2,27,54,Severe
+P037,64,Male,White,Service,Yes,Midwest,East North Central,Yes,10.6,Subacute,9,Severe,4,2,1,3,2,3,3,2,4,3,27,54,Severe
+P038,66,Female,White,Desk_office,Yes,South,South Atlantic,Yes,17.9,Chronic,6,Moderate,2,2,1,2,1,3,2,2,5,1,21,42,Severe
+P039,35,Male,Black,Manual_labor,No,South,East South Central,Yes,3.6,Subacute,0,Mild,1,1,2,1,2,1,1,2,0,1,12,24,Moderate
+P040,40,Female,White,Desk_office,No,Midwest,East North Central,Yes,9.2,Subacute,10,Severe,4,3,3,4,2,4,4,3,3,2,32,64,Crippled
+P041,77,Female,Asian,Healthcare,No,West,Mountain,Yes,4.7,Subacute,5,Moderate,1,3,2,2,2,1,2,2,2,1,18,36,Moderate
+P042,34,Male,White,Healthcare,No,Northeast,New England,Yes,3.3,Subacute,8,Severe,1,4,5,4,3,4,5,5,2,4,37,74,Crippled
+P043,62,Female,White,Service,No,Midwest,West North Central,Yes,15.3,Chronic,5,Moderate,3,2,3,4,2,3,0,2,1,2,22,44,Severe
+P044,69,Male,White,Manual_labor,No,West,Mountain,Yes,5.5,Subacute,4,Moderate,1,4,3,1,3,3,3,0,1,2,21,42,Severe
+P045,76,Female,Hispanic_Latino,Healthcare,No,Northeast,Middle Atlantic,Yes,41.3,Chronic,9,Severe,4,4,4,4,3,3,3,2,1,3,31,62,Crippled
+P046,32,Female,White,Service,Unsure,West,Pacific,Yes,14.2,Chronic,6,Moderate,1,3,1,3,2,2,2,0,1,3,18,36,Moderate
+P047,35,Female,White,Service,No,South,East South Central,Yes,1.8,Acute,6,Moderate,2,1,0,3,1,2,2,0,0,2,13,26,Moderate
+P048,67,Male,White,Desk_office,Yes,West,Mountain,Yes,1.1,Acute,2,Mild,1,0,3,0,2,3,0,1,0,0,10,20,Moderate
+P049,66,Female,Hispanic_Latino,Service,No,Midwest,East North Central,Yes,51.8,Chronic,1,Mild,0,4,3,0,0,0,1,0,1,1,10,20,Moderate
+P050,42,Female,White,Manual_labor,No,Midwest,East North Central,Yes,1.3,Acute,10,Severe,2,3,3,4,5,2,3,4,4,5,35,70,Crippled
+P051,62,Female,White,Service,Yes,Northeast,Middle Atlantic,Yes,45.5,Chronic,8,Severe,3,2,3,3,3,4,2,4,5,3,32,64,Crippled
+P052,29,Male,White,Healthcare,Unsure,South,West South Central,Yes,2.1,Subacute,10,Severe,3,3,4,3,4,2,3,3,3,3,31,62,Crippled
+P053,34,Female,Black,Manual_labor,Yes,Northeast,Middle Atlantic,Yes,50.9,Chronic,10,Severe,4,5,2,3,3,4,2,4,4,3,34,68,Crippled
+P054,52,Female,White,Service,No,Midwest,West North Central,Yes,21.2,Chronic,2,Mild,2,1,3,0,0,0,1,1,1,1,10,20,Moderate
+P055,78,Male,Hispanic_Latino,Healthcare,No,South,West South Central,Yes,19.4,Chronic,7,Severe,3,2,3,3,2,4,3,2,2,4,28,56,Severe
+P056,26,Male,White,Desk_office,No,Midwest,West North Central,Yes,11.8,Subacute,0,Mild,1,0,3,1,2,0,1,1,1,0,10,20,Moderate
+P057,41,Male,White,Manual_labor,Yes,South,South Atlantic,Yes,2.1,Subacute,5,Moderate,3,2,1,1,3,3,2,2,2,3,22,44,Severe
+P058,26,Male,White,Healthcare,No,South,East South Central,Yes,36.5,Chronic,6,Moderate,2,3,2,3,2,4,2,2,1,1,22,44,Severe
+P059,72,Male,White,Desk_office,Yes,South,South Atlantic,Yes,51,Chronic,8,Severe,2,3,2,3,3,3,3,4,3,4,30,60,Crippled
+P060,45,Male,Other,Desk_office,No,South,East South Central,Yes,31.5,Chronic,8,Severe,4,4,2,1,4,3,4,2,5,1,30,60,Crippled
+P061,59,Male,Other,Desk_office,No,South,East South Central,Yes,1.1,Acute,6,Moderate,3,0,2,1,1,3,2,2,2,2,18,36,Moderate
+P062,28,Female,White,Desk_office,No,South,South Atlantic,Yes,4.5,Subacute,4,Moderate,1,1,3,0,3,0,3,3,3,2,19,38,Moderate
+P063,23,Male,White,Desk_office,Yes,South,East South Central,Yes,0.7,Acute,4,Moderate,4,3,2,0,0,3,0,2,1,2,17,34,Moderate
+P064,79,Male,Black,Desk_office,No,West,Mountain,Yes,18.2,Chronic,6,Moderate,3,1,2,4,3,2,2,2,2,2,23,46,Severe
+P065,50,Female,Asian,Service,No,South,East South Central,Yes,52,Chronic,0,Mild,1,1,0,1,2,2,1,2,2,1,13,26,Moderate
+P066,18,Male,White,Desk_office,No,Midwest,East North Central,Yes,5.8,Subacute,4,Moderate,1,1,4,3,1,4,3,2,0,4,23,46,Severe
+P067,70,Female,White,Desk_office,No,Midwest,West North Central,Yes,42.6,Chronic,8,Severe,3,5,3,4,3,3,2,3,2,3,31,62,Crippled
+P068,31,Female,White,Desk_office,No,West,Mountain,Yes,2.9,Subacute,8,Severe,2,1,3,3,2,4,5,3,3,2,28,56,Severe
+P069,59,Female,White,Desk_office,No,Midwest,East North Central,Yes,50.1,Chronic,5,Moderate,5,2,3,3,2,1,2,2,0,2,22,44,Severe
+P070,21,Male,Hispanic_Latino,Manual_labor,No,Northeast,Middle Atlantic,Yes,1.1,Acute,0,Mild,2,1,1,1,1,1,2,3,0,0,12,24,Moderate
+P071,78,Male,White,Desk_office,No,South,East South Central,Yes,9.2,Subacute,9,Severe,4,2,1,4,3,3,4,2,1,5,29,58,Severe
+P072,50,Male,White,Desk_office,No,Northeast,New England,Yes,1.5,Acute,5,Moderate,1,3,1,2,2,1,0,1,1,2,14,28,Moderate
+P073,22,Male,Black,Desk_office,No,Northeast,New England,Yes,12,Chronic,6,Moderate,1,2,3,2,4,2,2,2,2,2,22,44,Severe
+P074,55,Male,White,Desk_office,Yes,Midwest,East North Central,Yes,1.9,Acute,6,Moderate,1,3,2,1,4,4,2,0,3,0,20,40,Severe
+P075,62,Male,Hispanic_Latino,Service,No,West,Pacific,Yes,24.9,Chronic,2,Mild,0,2,1,1,1,1,3,1,0,2,12,24,Moderate
+P076,20,Female,Hispanic_Latino,Healthcare,Yes,South,South Atlantic,Yes,0.6,Acute,10,Severe,1,2,0,3,3,2,4,2,2,3,22,44,Severe
+P077,68,Female,White,Desk_office,No,South,West South Central,Yes,51.3,Chronic,6,Moderate,1,1,3,4,1,3,1,1,2,1,18,36,Moderate
+P078,55,Male,White,Service,No,Midwest,East North Central,Yes,6.8,Subacute,0,Mild,0,0,0,1,0,1,1,2,1,0,6,12,Minimal
+P079,80,Female,White,Desk_office,Yes,West,Pacific,Yes,31,Chronic,4,Moderate,3,2,1,3,1,4,3,2,4,1,24,48,Severe
+P080,51,Male,White,Desk_office,No,South,South Atlantic,Yes,1.6,Acute,4,Moderate,3,3,2,2,2,1,1,0,1,0,15,30,Moderate
+P081,22,Female,Hispanic_Latino,Desk_office,Yes,Northeast,Middle Atlantic,Yes,43.3,Chronic,4,Moderate,1,1,2,1,3,3,1,2,3,4,21,42,Severe
+P082,48,Female,Black,Desk_office,Yes,Northeast,Middle Atlantic,Yes,1.1,Acute,5,Moderate,3,2,2,2,2,2,1,3,2,2,21,42,Severe
+P083,66,Male,White,Healthcare,Yes,West,Pacific,Yes,43.1,Chronic,9,Severe,4,2,3,1,2,3,2,3,3,4,27,54,Severe
+P084,40,Female,Hispanic_Latino,Manual_labor,No,South,West South Central,Yes,0.7,Acute,3,Mild,2,2,1,0,1,0,0,2,3,1,12,24,Moderate
+P085,56,Female,Black,Manual_labor,No,South,East South Central,Yes,13.4,Chronic,8,Severe,4,4,4,4,3,4,2,3,5,2,35,70,Crippled
+P086,27,Female,Black,Manual_labor,No,South,South Atlantic,Yes,0.8,Acute,0,Mild,1,0,3,1,1,0,3,3,3,2,17,34,Moderate
+P087,35,Female,White,Desk_office,No,Northeast,Middle Atlantic,Yes,9.8,Subacute,9,Severe,3,4,2,3,2,4,2,3,4,4,31,62,Crippled
+P088,74,Female,Black,Manual_labor,No,West,Mountain,Yes,51.6,Chronic,9,Severe,5,5,3,2,3,1,3,3,3,1,29,58,Severe
+P089,68,Male,White,Manual_labor,No,West,Pacific,Yes,0.6,Acute,8,Severe,3,3,3,3,4,3,3,3,4,2,31,62,Crippled
+P090,27,Male,Hispanic_Latino,Manual_labor,No,Northeast,New England,Yes,13.9,Chronic,6,Moderate,2,1,0,1,2,2,3,2,2,1,16,32,Moderate
+P091,31,Female,Other,Desk_office,No,Midwest,West North Central,Yes,5.1,Subacute,10,Severe,2,3,3,2,4,3,4,5,3,3,32,64,Crippled
+P092,39,Female,Black,Desk_office,No,South,South Atlantic,Yes,46,Chronic,8,Severe,3,4,2,4,3,3,3,3,3,4,32,64,Crippled
+P093,49,Male,White,Desk_office,No,South,South Atlantic,Yes,18.5,Chronic,4,Moderate,2,2,2,1,2,3,1,2,3,3,21,42,Severe
+P094,67,Male,White,Desk_office,Yes,Northeast,Middle Atlantic,Yes,35.1,Chronic,6,Moderate,1,3,2,3,4,0,2,1,3,2,21,42,Severe
+P095,60,Female,White,Desk_office,Yes,West,Pacific,Yes,24.5,Chronic,8,Severe,3,4,3,3,2,3,3,4,4,5,34,68,Crippled
+P096,42,Female,White,Manual_labor,Unsure,Midwest,East North Central,Yes,33.6,Chronic,10,Severe,2,4,4,2,3,4,3,3,3,3,31,62,Crippled
+P097,52,Male,White,Manual_labor,No,South,East South Central,Yes,44.2,Chronic,9,Severe,2,3,2,4,3,3,3,3,4,3,30,60,Crippled
+P098,40,Male,White,Service,Yes,Midwest,East North Central,Yes,1,Acute,8,Severe,3,3,3,4,3,2,2,2,2,3,27,54,Severe
+P099,36,Female,White,Manual_labor,Yes,South,East South Central,Yes,17.1,Chronic,8,Severe,3,3,4,2,4,3,3,2,2,3,29,58,Severe
+P100,47,Male,Black,Desk_office,No,Northeast,New England,Yes,9.4,Subacute,3,Mild,0,0,2,1,0,0,2,0,3,2,10,20,Moderate
+P101,65,Female,Black,Desk_office,Yes,West,Pacific,Yes,14.6,Chronic,10,Severe,0,4,2,1,4,4,3,4,5,4,31,62,Crippled
+P102,37,Female,Black,Healthcare,Yes,Midwest,West North Central,Yes,8.5,Subacute,8,Severe,3,3,2,1,3,3,3,3,0,1,22,44,Severe
+P103,62,Female,White,Healthcare,No,Midwest,East North Central,Yes,10.5,Subacute,3,Mild,2,0,1,4,1,1,0,1,0,1,11,22,Moderate
+P104,68,Female,Black,Desk_office,No,Northeast,New England,Yes,0.9,Acute,6,Moderate,3,2,3,4,3,1,2,1,1,2,22,44,Severe
+P105,47,Female,Black,Desk_office,No,South,South Atlantic,Yes,0.6,Acute,6,Moderate,4,1,3,2,2,5,2,2,3,3,27,54,Severe
+P106,46,Male,White,Desk_office,Yes,South,West South Central,Yes,2.8,Subacute,4,Moderate,2,1,3,1,3,2,1,4,1,3,21,42,Severe
+P107,70,Female,Black,Desk_office,No,South,West South Central,Yes,16,Chronic,10,Severe,4,1,4,4,2,3,2,3,3,4,30,60,Crippled
+P108,37,Male,White,Manual_labor,Yes,South,West South Central,Yes,5.1,Subacute,7,Severe,4,3,5,5,3,3,1,2,2,3,31,62,Crippled
+P109,70,Male,Hispanic_Latino,Desk_office,Unsure,Midwest,East North Central,Yes,11.9,Subacute,4,Moderate,0,1,3,0,2,1,4,2,2,3,18,36,Moderate
+P110,59,Female,Black,Desk_office,No,South,South Atlantic,Yes,34.3,Chronic,6,Moderate,2,1,2,4,2,3,4,3,2,1,24,48,Severe
+P111,45,Female,Black,Service,Yes,South,East South Central,Yes,33.3,Chronic,7,Severe,3,5,3,3,2,3,2,3,3,5,32,64,Crippled
+P112,72,Male,White,Desk_office,No,South,West South Central,Yes,26.5,Chronic,7,Severe,3,3,4,4,4,3,3,3,3,4,34,68,Crippled
+P113,66,Male,White,Desk_office,No,Northeast,New England,Yes,49.1,Chronic,3,Mild,1,2,2,2,0,2,1,3,1,1,15,30,Moderate
+P114,54,Female,White,Service,No,South,West South Central,Yes,40,Chronic,2,Mild,0,1,0,0,1,0,1,1,1,2,7,14,Minimal
+P115,33,Female,White,Service,Yes,South,East South Central,Yes,1.1,Acute,5,Moderate,3,1,2,3,2,3,0,2,2,2,20,40,Severe
+P116,38,Male,White,Service,Yes,South,East South Central,Yes,10.2,Subacute,5,Moderate,3,1,2,3,3,5,2,1,2,0,22,44,Severe
+P117,31,Female,Hispanic_Latino,Healthcare,No,South,South Atlantic,Yes,1.3,Acute,3,Mild,2,1,0,3,1,1,1,1,2,1,13,26,Moderate
+P118,21,Female,Hispanic_Latino,Manual_labor,Unsure,Midwest,West North Central,Yes,16.6,Chronic,0,Mild,3,0,2,0,1,1,0,2,1,1,11,22,Moderate
+P119,29,Female,White,Manual_labor,No,West,Mountain,Yes,4.1,Subacute,4,Moderate,3,2,2,2,2,4,2,2,3,4,26,52,Severe
+P120,51,Male,Asian,Desk_office,No,West,Pacific,Yes,9.1,Subacute,3,Mild,2,2,1,2,1,0,1,1,2,2,14,28,Moderate
+P121,31,Male,White,Manual_labor,No,South,South Atlantic,Yes,11.6,Subacute,5,Moderate,2,4,1,1,1,2,0,1,2,1,15,30,Moderate
+P122,49,Male,Hispanic_Latino,Manual_labor,No,Midwest,West North Central,Yes,8.6,Subacute,6,Moderate,3,4,2,3,1,1,2,2,1,4,23,46,Severe
+P123,77,Female,White,Other,Unsure,West,Pacific,Yes,37.8,Chronic,5,Moderate,1,1,2,2,3,3,1,2,2,3,20,40,Severe
+P124,64,Male,Black,Service,Unsure,Midwest,West North Central,Yes,10.9,Subacute,8,Severe,3,3,1,3,3,2,4,2,3,3,27,54,Severe
+P125,63,Male,White,Service,No,South,South Atlantic,Yes,7.6,Subacute,10,Severe,3,3,3,3,3,1,2,3,3,3,27,54,Severe
+P126,21,Female,Hispanic_Latino,Manual_labor,No,South,East South Central,Yes,27.7,Chronic,8,Severe,2,4,4,4,3,2,3,5,4,3,34,68,Crippled
+P127,59,Female,White,Service,Yes,South,West South Central,Yes,4.5,Subacute,4,Moderate,2,3,0,4,1,2,0,2,3,0,17,34,Moderate
+P128,35,Female,White,Desk_office,Unsure,Northeast,Middle Atlantic,Yes,42.1,Chronic,4,Moderate,2,2,0,4,3,5,1,3,3,2,25,50,Severe
+P129,24,Female,White,Service,No,West,Pacific,Yes,1.4,Acute,2,Mild,1,1,0,2,2,1,0,1,2,2,12,24,Moderate
+P130,41,Female,White,Service,No,Midwest,East North Central,Yes,27.7,Chronic,4,Moderate,1,2,1,1,3,1,3,2,0,1,15,30,Moderate
+P131,79,Female,White,Desk_office,Yes,Midwest,East North Central,Yes,51.4,Chronic,7,Severe,2,3,2,1,3,1,4,2,1,3,22,44,Severe
+P132,65,Male,Black,Service,Yes,South,South Atlantic,Yes,2,Acute,5,Moderate,3,3,3,2,3,3,2,3,1,3,26,52,Severe
+P133,30,Male,Black,Desk_office,Yes,West,Pacific,Yes,11.5,Subacute,6,Moderate,3,0,3,2,2,2,3,2,2,1,20,40,Severe
+P134,46,Female,White,Other,Yes,South,West South Central,Yes,3.2,Subacute,8,Severe,1,4,3,2,4,3,4,4,4,2,31,62,Crippled
+P135,20,Female,Other,Healthcare,Yes,Northeast,New England,Yes,4.9,Subacute,6,Moderate,3,2,3,2,1,3,1,2,3,1,21,42,Severe
+P136,76,Male,White,Service,No,South,West South Central,Yes,1.7,Acute,7,Severe,3,2,2,1,2,3,5,2,2,5,27,54,Severe
+P137,44,Female,White,Healthcare,No,South,East South Central,Yes,8.6,Subacute,9,Severe,2,3,5,2,2,3,5,4,2,4,32,64,Crippled
+P138,44,Female,Black,Healthcare,No,Midwest,West North Central,Yes,0.8,Acute,0,Mild,2,1,1,0,2,2,1,1,0,2,12,24,Moderate
+P139,53,Female,White,Healthcare,No,South,East South Central,Yes,16.1,Chronic,1,Mild,2,1,1,1,0,2,3,2,0,2,14,28,Moderate
+P140,56,Male,Hispanic_Latino,Healthcare,Yes,Midwest,East North Central,Yes,0.6,Acute,9,Severe,5,3,5,4,3,3,2,3,4,4,36,72,Crippled
+P141,73,Female,White,Service,No,Midwest,East North Central,Yes,4.7,Subacute,5,Moderate,2,3,2,3,2,3,1,2,2,3,23,46,Severe
+P142,80,Male,White,Desk_office,No,South,South Atlantic,Yes,2.3,Subacute,4,Moderate,2,3,1,3,2,2,3,2,3,3,24,48,Severe
+P143,52,Female,White,Service,No,South,South Atlantic,Yes,5.5,Subacute,7,Severe,3,4,4,4,2,4,2,2,4,3,32,64,Crippled
+P144,23,Female,White,Desk_office,No,South,South Atlantic,Yes,6.6,Subacute,6,Moderate,1,2,1,3,1,3,2,4,2,2,21,42,Severe
+P145,27,Female,Black,Desk_office,Yes,Midwest,East North Central,Yes,1.1,Acute,6,Moderate,2,4,2,2,3,2,1,4,1,3,24,48,Severe
+P146,51,Male,Hispanic_Latino,Healthcare,No,Northeast,New England,Yes,11.3,Subacute,5,Moderate,1,2,3,3,3,3,2,3,3,2,25,50,Severe
+P147,60,Female,White,Desk_office,No,South,South Atlantic,Yes,10.7,Subacute,6,Moderate,2,0,3,2,2,0,2,2,1,1,15,30,Moderate
+P148,25,Female,White,Manual_labor,Unsure,Northeast,New England,Yes,30,Chronic,5,Moderate,0,3,1,1,1,2,1,0,3,3,15,30,Moderate
+P149,60,Female,White,Service,No,Midwest,East North Central,Yes,42.9,Chronic,4,Moderate,0,4,3,5,3,1,3,1,4,1,25,50,Severe
+P150,80,Female,Hispanic_Latino,Service,No,South,East South Central,Yes,35.2,Chronic,5,Moderate,1,0,1,4,1,2,3,2,2,3,19,38,Moderate
+P151,28,Male,White,Healthcare,No,West,Pacific,Yes,29.2,Chronic,4,Moderate,2,2,1,3,1,1,1,3,0,3,17,34,Moderate
+P152,56,Female,Hispanic_Latino,Manual_labor,Unsure,West,Pacific,Yes,26.7,Chronic,4,Moderate,0,2,3,2,2,3,2,2,1,2,19,38,Moderate
+P153,73,Male,Hispanic_Latino,Other,No,West,Mountain,Yes,40.3,Chronic,9,Severe,4,4,2,3,3,3,3,4,4,2,32,64,Crippled
+P154,52,Male,White,Service,No,Midwest,East North Central,Yes,36.8,Chronic,4,Moderate,2,3,2,2,2,4,1,4,2,1,23,46,Severe
+P155,41,Male,White,Healthcare,No,South,South Atlantic,Yes,38,Chronic,10,Severe,3,4,4,3,2,3,3,3,3,2,30,60,Crippled
+P156,18,Female,Black,Desk_office,No,South,West South Central,Yes,11.5,Subacute,1,Mild,2,2,2,1,0,4,0,1,0,2,14,28,Moderate
+P157,53,Male,Hispanic_Latino,Desk_office,No,South,South Atlantic,Yes,2.8,Subacute,6,Moderate,2,3,2,2,2,2,1,3,2,2,21,42,Severe
+P158,25,Female,Hispanic_Latino,Desk_office,No,South,South Atlantic,Yes,47.7,Chronic,5,Moderate,1,2,1,1,0,2,0,2,1,3,13,26,Moderate
+P159,25,Male,White,Service,No,Midwest,East North Central,Yes,0.8,Acute,9,Severe,4,5,3,2,2,4,3,3,3,3,32,64,Crippled
+P160,59,Female,White,Manual_labor,No,South,East South Central,Yes,43.1,Chronic,9,Severe,5,3,0,5,4,5,4,4,3,3,36,72,Crippled
+P161,33,Male,White,Service,Yes,Midwest,East North Central,Yes,32.4,Chronic,10,Severe,5,3,3,1,4,2,3,2,2,2,27,54,Severe
+P162,45,Female,White,Service,No,South,West South Central,Yes,3.4,Subacute,6,Moderate,3,1,0,3,2,0,5,3,3,3,23,46,Severe
+P163,59,Female,Black,Service,Yes,South,West South Central,Yes,0.9,Acute,6,Moderate,1,1,2,3,4,2,2,1,4,1,21,42,Severe
+P164,56,Female,White,Healthcare,No,South,East South Central,Yes,1,Acute,6,Moderate,2,3,1,2,2,1,3,2,0,2,18,36,Moderate
+P165,32,Female,Hispanic_Latino,Service,Yes,West,Pacific,Yes,10,Subacute,6,Moderate,4,3,2,1,2,2,2,3,3,1,23,46,Severe
+P166,68,Female,Hispanic_Latino,Desk_office,No,Northeast,New England,Yes,2.4,Subacute,6,Moderate,4,3,3,2,1,3,3,3,1,2,25,50,Severe
+P167,76,Female,White,Other,No,West,Pacific,Yes,11.3,Subacute,0,Mild,2,0,0,0,2,1,0,2,0,0,7,14,Minimal
+P168,20,Female,White,Desk_office,Yes,South,East South Central,Yes,46.2,Chronic,6,Moderate,1,1,2,1,2,2,3,2,2,2,18,36,Moderate
+P169,78,Female,White,Manual_labor,No,South,East South Central,Yes,35.3,Chronic,5,Moderate,2,3,3,3,4,3,2,3,2,3,28,56,Severe
+P170,22,Male,White,Manual_labor,Yes,South,South Atlantic,Yes,1.4,Acute,10,Severe,4,3,3,3,4,4,1,3,4,3,32,64,Crippled
+P171,56,Female,White,Desk_office,Yes,Northeast,Middle Atlantic,Yes,4.2,Subacute,7,Severe,3,1,4,3,3,4,2,2,2,4,28,56,Severe
+P172,43,Male,Hispanic_Latino,Manual_labor,Unsure,South,East South Central,Yes,10.1,Subacute,9,Severe,2,4,2,3,5,2,3,3,4,2,30,60,Crippled
+P173,67,Female,Black,Healthcare,Yes,South,West South Central,Yes,9.7,Subacute,2,Mild,1,0,0,2,1,1,0,2,1,1,9,18,Minimal
+P174,49,Female,White,Manual_labor,No,Midwest,West North Central,Yes,0.7,Acute,8,Severe,3,2,5,3,3,2,4,3,3,2,30,60,Crippled
+P175,56,Female,Black,Manual_labor,No,South,South Atlantic,Yes,27.9,Chronic,5,Moderate,2,2,3,2,0,1,2,2,2,3,19,38,Moderate
+P176,49,Male,Hispanic_Latino,Desk_office,No,South,East South Central,Yes,2,Acute,10,Severe,2,2,3,3,2,3,4,2,4,3,28,56,Severe
+P177,26,Female,Black,Healthcare,Yes,West,Mountain,Yes,1.8,Acute,6,Moderate,1,2,2,1,2,2,2,1,3,4,20,40,Severe
+P178,51,Male,White,Service,Unsure,Midwest,East North Central,Yes,1.8,Acute,8,Severe,3,3,3,4,2,2,2,4,3,3,29,58,Severe
+P179,43,Male,Black,Desk_office,Unsure,Midwest,West North Central,Yes,0.6,Acute,6,Moderate,1,3,3,1,0,1,3,1,2,1,16,32,Moderate
+P180,54,Female,White,Healthcare,No,Midwest,East North Central,Yes,42.4,Chronic,3,Mild,0,2,0,1,1,1,0,2,0,2,9,18,Minimal
+P181,71,Male,Hispanic_Latino,Service,No,Midwest,East North Central,Yes,47,Chronic,10,Severe,4,4,2,3,2,4,2,4,4,5,34,68,Crippled
+P182,78,Female,Other,Service,No,South,East South Central,Yes,7.6,Subacute,8,Severe,3,3,2,3,3,2,1,3,2,0,22,44,Severe
+P183,49,Male,White,Service,No,West,Pacific,Yes,0.9,Acute,2,Mild,1,2,2,3,3,2,0,3,2,0,18,36,Moderate
+P184,78,Female,Asian,Desk_office,No,South,West South Central,Yes,0.7,Acute,5,Moderate,2,0,2,3,2,2,2,2,2,2,19,38,Moderate
+P185,18,Female,Black,Manual_labor,No,West,Pacific,Yes,1.8,Acute,4,Moderate,2,2,3,2,2,2,3,3,3,2,24,48,Severe
+P186,37,Female,White,Desk_office,No,Midwest,West North Central,Yes,3.3,Subacute,5,Moderate,1,3,3,4,1,2,2,3,2,1,22,44,Severe
+P187,57,Male,White,Service,Yes,Midwest,West North Central,Yes,2.1,Subacute,4,Moderate,2,3,1,2,0,3,0,4,2,2,19,38,Moderate
+P188,37,Male,White,Service,Unsure,South,East South Central,Yes,51.8,Chronic,4,Moderate,2,0,2,0,2,3,1,3,3,3,19,38,Moderate
+P189,61,Female,Black,Service,No,South,East South Central,Yes,1.7,Acute,7,Severe,3,1,4,3,3,3,5,2,2,3,29,58,Severe
+P190,36,Female,Other,Manual_labor,Yes,Northeast,Middle Atlantic,Yes,13.7,Chronic,5,Moderate,1,1,3,2,2,3,1,3,1,4,21,42,Severe
+P191,42,Female,Hispanic_Latino,Desk_office,Unsure,South,South Atlantic,Yes,2.6,Subacute,8,Severe,4,3,2,4,4,1,2,4,1,4,29,58,Severe
+P192,42,Male,White,Manual_labor,Yes,South,South Atlantic,Yes,0.7,Acute,7,Severe,1,2,2,5,2,3,3,3,3,2,26,52,Severe
+P193,24,Female,White,Service,No,Northeast,Middle Atlantic,Yes,1.6,Acute,5,Moderate,1,2,2,1,2,0,3,4,2,2,19,38,Moderate
+P194,46,Male,White,Manual_labor,No,Northeast,Middle Atlantic,Yes,6.7,Subacute,5,Moderate,2,1,3,2,1,3,3,1,2,2,20,40,Severe
+P195,54,Male,Other,Desk_office,No,Northeast,Middle Atlantic,Yes,12.9,Chronic,7,Severe,1,4,3,3,3,2,3,3,3,3,28,56,Severe
+P196,28,Female,Black,Manual_labor,No,South,West South Central,Yes,43.4,Chronic,6,Moderate,3,2,2,1,2,2,2,3,3,1,21,42,Severe
+P197,76,Female,White,Manual_labor,Yes,Midwest,West North Central,Yes,1.4,Acute,5,Moderate,0,4,3,2,2,1,4,4,2,3,25,50,Severe
+P198,30,Male,Asian,Service,No,West,Mountain,Yes,13.8,Chronic,8,Severe,1,1,4,4,2,3,3,3,4,2,27,54,Severe
+P199,80,Female,Black,Manual_labor,No,South,South Atlantic,Yes,2,Acute,1,Mild,3,2,0,0,1,1,1,0,2,3,13,26,Moderate
+P200,67,Male,Hispanic_Latino,Manual_labor,No,South,West South Central,Yes,21.6,Chronic,8,Severe,3,5,4,4,3,3,4,2,4,2,34,68,Crippled
+P201,50,Female,Hispanic_Latino,Service,Yes,South,East South Central,Yes,30.4,Chronic,8,Severe,3,3,3,2,2,3,4,2,0,2,24,48,Severe
+P202,47,Female,White,Desk_office,No,Midwest,East North Central,Yes,4.1,Subacute,10,Severe,3,1,3,3,4,2,2,3,2,3,26,52,Severe
+P203,66,Male,White,Manual_labor,No,South,South Atlantic,Yes,6.2,Subacute,7,Severe,4,3,3,2,3,2,1,4,4,3,29,58,Severe
+P204,53,Male,White,Desk_office,No,Midwest,East North Central,Yes,29.2,Chronic,9,Severe,2,2,3,3,2,4,5,2,2,3,28,56,Severe
+P205,58,Male,White,Desk_office,No,Midwest,West North Central,Yes,1,Acute,6,Moderate,2,3,1,1,3,0,3,3,2,2,20,40,Severe
+P206,46,Female,Other,Healthcare,No,West,Pacific,Yes,2.6,Subacute,2,Mild,1,1,1,2,0,2,2,2,0,0,11,22,Moderate
+P207,40,Female,Hispanic_Latino,Desk_office,No,Midwest,East North Central,Yes,39.7,Chronic,10,Severe,3,3,4,4,2,3,2,2,2,5,30,60,Crippled
+P208,77,Male,White,Service,Unsure,Midwest,East North Central,Yes,9.7,Subacute,2,Mild,1,1,1,1,0,1,0,0,1,1,7,14,Minimal
+P209,80,Female,Hispanic_Latino,Service,No,West,Pacific,Yes,39.3,Chronic,4,Moderate,1,3,1,1,2,2,2,1,2,3,18,36,Moderate
+P210,39,Female,White,Healthcare,No,South,West South Central,Yes,18.8,Chronic,2,Mild,2,2,0,3,0,2,2,1,1,2,15,30,Moderate
+P211,31,Female,Black,Manual_labor,No,South,West South Central,Yes,24.3,Chronic,6,Moderate,2,2,1,3,3,1,1,2,2,2,19,38,Moderate
+P212,18,Male,White,Manual_labor,Yes,Northeast,New England,Yes,32.2,Chronic,5,Moderate,2,1,0,1,2,3,0,1,2,3,15,30,Moderate
+P213,60,Female,White,Service,No,Midwest,West North Central,Yes,10.5,Subacute,6,Moderate,1,2,2,3,2,2,2,3,2,1,20,40,Severe
+P214,35,Male,Hispanic_Latino,Healthcare,Yes,South,East South Central,Yes,0.8,Acute,10,Severe,3,3,2,4,5,2,4,3,3,5,34,68,Crippled
+P215,20,Female,White,Manual_labor,No,West,Pacific,Yes,46.3,Chronic,0,Mild,2,1,1,1,1,0,1,0,0,0,7,14,Minimal
+P216,28,Female,White,Desk_office,Yes,West,Pacific,Yes,51.8,Chronic,6,Moderate,2,1,2,1,2,3,3,2,2,2,20,40,Severe
+P217,57,Male,White,Service,No,Northeast,New England,Yes,20,Chronic,6,Moderate,2,4,4,3,2,1,2,3,4,1,26,52,Severe
+P218,64,Female,White,Manual_labor,No,Northeast,Middle Atlantic,Yes,0.9,Acute,7,Severe,4,3,3,2,4,2,4,2,3,3,30,60,Crippled
+P219,58,Female,Hispanic_Latino,Service,No,West,Mountain,Yes,5.1,Subacute,6,Moderate,3,2,3,4,2,0,2,2,3,2,23,46,Severe
+P220,33,Female,White,Service,Yes,South,East South Central,Yes,5.8,Subacute,4,Moderate,3,1,2,2,1,3,1,2,2,1,18,36,Moderate
+P221,34,Male,Hispanic_Latino,Manual_labor,Yes,West,Pacific,Yes,18.5,Chronic,10,Severe,2,4,1,3,2,4,2,3,3,3,27,54,Severe
+P222,73,Female,Hispanic_Latino,Desk_office,No,South,South Atlantic,Yes,15.5,Chronic,5,Moderate,2,2,1,0,3,2,4,2,1,3,20,40,Severe
+P223,60,Female,Hispanic_Latino,Other,No,South,East South Central,Yes,44.2,Chronic,8,Severe,3,3,3,2,2,5,3,5,2,4,32,64,Crippled
+P224,43,Male,White,Healthcare,No,Midwest,West North Central,Yes,6,Subacute,5,Moderate,4,3,3,3,0,2,1,1,1,2,20,40,Severe
+P225,19,Male,Black,Healthcare,No,West,Pacific,Yes,5.1,Subacute,8,Severe,3,2,3,4,2,1,3,4,4,3,29,58,Severe
+P226,28,Male,Hispanic_Latino,Healthcare,No,Northeast,New England,Yes,0.8,Acute,0,Mild,2,2,1,1,0,0,0,2,1,0,9,18,Minimal
+P227,27,Female,White,Desk_office,No,South,East South Central,Yes,1.1,Acute,5,Moderate,2,2,3,3,3,1,3,4,5,1,27,54,Severe
+P228,28,Male,Black,Service,No,West,Pacific,Yes,8.6,Subacute,4,Moderate,2,2,0,1,3,3,2,3,2,1,19,38,Moderate
+P229,55,Female,White,Other,No,South,East South Central,Yes,6.8,Subacute,10,Severe,2,2,5,3,3,2,4,3,2,1,27,54,Severe
+P230,51,Female,Hispanic_Latino,Desk_office,No,Midwest,West North Central,Yes,1.1,Acute,3,Mild,2,4,1,0,1,2,0,0,0,0,10,20,Moderate
+P231,29,Female,White,Manual_labor,Unsure,South,East South Central,Yes,1,Acute,6,Moderate,2,2,2,2,3,2,3,2,2,2,22,44,Severe
+P232,79,Female,White,Service,No,West,Mountain,Yes,5.2,Subacute,10,Severe,3,3,2,4,4,2,1,3,3,3,28,56,Severe
+P233,46,Female,White,Manual_labor,No,Midwest,East North Central,Yes,1.7,Acute,6,Moderate,3,2,3,2,3,2,1,3,2,2,23,46,Severe
+P234,50,Male,Black,Service,Unsure,Northeast,New England,Yes,14.6,Chronic,6,Moderate,1,0,3,1,3,2,2,4,1,3,20,40,Severe
+P235,31,Male,Black,Manual_labor,No,Midwest,West North Central,Yes,0.9,Acute,5,Moderate,2,3,3,1,2,2,0,3,2,3,21,42,Severe
+P236,64,Female,White,Manual_labor,Unsure,South,South Atlantic,Yes,46.6,Chronic,5,Moderate,2,2,1,2,2,3,2,1,3,2,20,40,Severe
+P237,48,Male,White,Desk_office,No,Midwest,East North Central,Yes,6.7,Subacute,8,Severe,2,3,5,3,4,3,3,3,3,3,32,64,Crippled
+P238,75,Female,Black,Other,Yes,Northeast,Middle Atlantic,Yes,37.4,Chronic,7,Severe,3,2,2,5,3,4,1,5,4,3,32,64,Crippled
+P239,18,Female,White,Service,Yes,West,Pacific,Yes,4.8,Subacute,10,Severe,1,3,4,5,3,4,5,3,2,3,33,66,Crippled
+P240,37,Male,White,Desk_office,Unsure,West,Mountain,Yes,5.5,Subacute,7,Severe,3,4,5,3,3,1,1,4,3,4,31,62,Crippled
+P241,41,Male,White,Desk_office,No,Northeast,New England,Yes,26.8,Chronic,9,Severe,3,3,4,3,4,2,4,2,2,3,30,60,Crippled
+P242,49,Female,White,Manual_labor,Unsure,South,East South Central,Yes,46.9,Chronic,5,Moderate,2,3,1,2,3,0,1,2,3,4,21,42,Severe
+P243,31,Male,Hispanic_Latino,Other,No,Midwest,East North Central,Yes,0.9,Acute,0,Mild,0,0,1,0,0,0,0,0,1,1,3,6,Minimal
+P244,21,Male,White,Service,No,South,East South Central,Yes,1.4,Acute,8,Severe,5,2,3,4,3,3,2,3,3,2,30,60,Crippled
+P245,34,Female,White,Desk_office,No,Midwest,West North Central,Yes,40.9,Chronic,0,Mild,0,0,0,2,1,1,1,0,1,1,7,14,Minimal
+P246,31,Male,Black,Desk_office,Yes,South,East South Central,Yes,1.1,Acute,6,Moderate,2,3,3,4,0,1,4,0,4,2,23,46,Severe
+P247,70,Female,Black,Manual_labor,Yes,Midwest,East North Central,Yes,11.3,Subacute,3,Mild,0,0,0,1,0,1,2,2,1,1,8,16,Minimal
+P248,77,Male,White,Service,No,West,Mountain,Yes,1.5,Acute,1,Mild,0,1,1,0,1,0,4,0,0,2,9,18,Minimal
+P249,22,Female,Hispanic_Latino,Service,No,Northeast,Middle Atlantic,Yes,20.8,Chronic,6,Moderate,1,1,2,3,3,3,2,1,3,1,20,40,Severe
+P250,68,Male,White,Service,No,South,East South Central,Yes,41,Chronic,9,Severe,3,2,3,4,1,3,4,4,2,3,29,58,Severe
+P251,19,Female,Black,Manual_labor,Yes,South,East South Central,Yes,37.6,Chronic,5,Moderate,2,3,3,3,3,3,2,2,3,1,25,50,Severe
+P252,33,Male,Black,Service,No,South,West South Central,Yes,10.7,Subacute,8,Severe,3,1,3,1,3,4,4,1,3,3,26,52,Severe
+P253,46,Female,Hispanic_Latino,Desk_office,No,West,Mountain,Yes,12.7,Chronic,1,Mild,0,1,0,1,2,2,2,1,0,2,11,22,Moderate
+P254,75,Male,Black,Service,Unsure,South,South Atlantic,Yes,1.7,Acute,5,Moderate,3,3,2,4,2,2,2,2,3,1,24,48,Severe
+P255,72,Male,White,Manual_labor,Unsure,Midwest,East North Central,Yes,51,Chronic,6,Moderate,1,3,2,1,3,3,1,0,2,2,18,36,Moderate
+P256,35,Female,Hispanic_Latino,Desk_office,No,South,West South Central,Yes,19.9,Chronic,8,Severe,3,3,3,3,2,2,2,3,4,3,28,56,Severe
+P257,68,Male,Black,Desk_office,Yes,Northeast,Middle Atlantic,Yes,0.7,Acute,1,Mild,3,1,2,2,2,1,2,1,2,2,18,36,Moderate
+P258,76,Female,White,Desk_office,No,Midwest,East North Central,Yes,48.4,Chronic,4,Moderate,0,0,3,1,2,2,1,3,2,2,16,32,Moderate
+P259,74,Male,White,Desk_office,No,West,Mountain,Yes,8.3,Subacute,3,Mild,2,1,3,0,1,1,2,2,1,1,14,28,Moderate
+P260,20,Male,White,Service,No,Northeast,Middle Atlantic,Yes,6.2,Subacute,6,Moderate,1,3,2,1,2,3,2,3,3,3,23,46,Severe
+P261,60,Male,Hispanic_Latino,Manual_labor,Yes,South,West South Central,Yes,31,Chronic,7,Severe,2,1,2,4,3,3,2,4,1,2,24,48,Severe
+P262,78,Male,White,Desk_office,Unsure,West,Mountain,Yes,25.7,Chronic,2,Mild,0,3,1,1,3,0,3,1,2,0,14,28,Moderate
+P263,43,Male,White,Manual_labor,Yes,South,South Atlantic,Yes,10.7,Subacute,9,Severe,3,3,3,5,2,3,4,3,5,4,35,70,Crippled
+P264,45,Male,White,Desk_office,Unsure,Midwest,West North Central,Yes,11.3,Subacute,6,Moderate,2,1,2,1,3,2,1,2,3,2,19,38,Moderate
+P265,68,Female,White,Manual_labor,Yes,West,Mountain,Yes,7.9,Subacute,2,Mild,1,1,1,0,1,1,1,0,1,2,9,18,Minimal
+P266,32,Male,White,Desk_office,No,West,Pacific,Yes,4.7,Subacute,9,Severe,3,3,3,2,3,3,2,4,4,2,29,58,Severe
+P267,74,Male,Hispanic_Latino,Desk_office,No,Northeast,Middle Atlantic,Yes,48.3,Chronic,3,Mild,2,0,1,0,0,2,1,1,1,4,12,24,Moderate
+P268,74,Male,Black,Service,No,West,Mountain,Yes,48.1,Chronic,7,Severe,3,3,5,3,2,3,2,3,3,4,31,62,Crippled
+P269,42,Male,Black,Service,No,Midwest,East North Central,Yes,44.7,Chronic,9,Severe,4,2,3,4,4,4,2,2,3,3,31,62,Crippled
+P270,65,Female,White,Healthcare,Yes,South,West South Central,Yes,39.9,Chronic,0,Mild,2,0,1,2,1,0,1,0,1,1,9,18,Minimal
+P271,66,Male,White,Manual_labor,No,Midwest,East North Central,Yes,10.5,Subacute,4,Moderate,1,3,2,1,3,2,2,2,2,3,21,42,Severe
+P272,51,Male,White,Desk_office,Unsure,Midwest,West North Central,Yes,1.2,Acute,6,Moderate,2,0,0,3,3,2,1,1,2,0,14,28,Moderate
+P273,37,Female,White,Healthcare,Yes,South,West South Central,Yes,7.6,Subacute,5,Moderate,1,4,3,3,2,2,1,2,1,1,20,40,Severe
+P274,31,Female,White,Desk_office,Unsure,West,Mountain,Yes,2.3,Subacute,0,Mild,2,2,1,1,1,2,0,1,0,0,10,20,Moderate
+P275,32,Female,White,Desk_office,No,South,East South Central,Yes,37.5,Chronic,9,Severe,3,3,2,3,3,3,3,3,2,4,29,58,Severe
+P276,56,Male,White,Desk_office,No,South,West South Central,Yes,31.7,Chronic,10,Severe,2,2,3,1,3,3,3,2,5,4,28,56,Severe
+P277,20,Female,Black,Desk_office,No,South,West South Central,Yes,1.1,Acute,5,Moderate,1,2,2,2,2,2,1,2,2,2,18,36,Moderate
+P278,24,Male,Asian,Healthcare,Yes,West,Pacific,Yes,5.2,Subacute,10,Severe,2,3,1,2,4,4,3,2,2,3,26,52,Severe
+P279,51,Male,White,Service,No,Northeast,New England,Yes,2,Acute,10,Severe,0,5,3,3,3,3,3,2,1,2,25,50,Severe
+P280,40,Female,White,Manual_labor,No,South,East South Central,Yes,0.8,Acute,1,Mild,1,0,0,0,1,1,3,2,2,1,11,22,Moderate
+P281,50,Female,White,Manual_labor,Yes,South,East South Central,Yes,1.8,Acute,4,Moderate,2,2,1,4,3,3,3,2,3,2,25,50,Severe
+P282,49,Female,Black,Desk_office,No,West,Pacific,Yes,2.9,Subacute,6,Moderate,3,2,3,2,2,3,2,2,3,1,23,46,Severe
+P283,25,Male,Black,Desk_office,No,South,East South Central,Yes,10.1,Subacute,6,Moderate,4,2,1,1,2,1,1,2,3,3,20,40,Severe
+P284,30,Female,White,Desk_office,Yes,West,Mountain,Yes,46.9,Chronic,4,Moderate,2,4,0,2,1,3,2,1,1,1,17,34,Moderate
+P285,30,Female,Black,Service,No,West,Mountain,Yes,35.9,Chronic,9,Severe,3,2,1,1,2,2,5,4,4,2,26,52,Severe
+P286,32,Male,White,Service,No,Midwest,West North Central,Yes,39.1,Chronic,6,Moderate,3,3,3,4,4,1,4,2,2,0,26,52,Severe
+P287,79,Female,Black,Healthcare,Yes,South,East South Central,Yes,5.3,Subacute,5,Moderate,4,0,2,3,2,2,2,2,0,1,18,36,Moderate
+P288,53,Male,White,Service,No,Midwest,West North Central,Yes,43,Chronic,9,Severe,3,3,2,3,3,1,2,4,5,4,30,60,Crippled
+P289,60,Male,White,Desk_office,No,South,West South Central,Yes,0.7,Acute,5,Moderate,1,3,1,3,1,4,3,0,2,1,19,38,Moderate
+P290,73,Male,Black,Manual_labor,Yes,Midwest,West North Central,Yes,47.3,Chronic,9,Severe,2,3,4,4,3,3,3,3,2,3,30,60,Crippled
+P291,71,Female,Black,Healthcare,No,South,West South Central,Yes,1.2,Acute,10,Severe,3,3,3,3,2,4,2,1,3,4,28,56,Severe
+P292,24,Male,Hispanic_Latino,Desk_office,Yes,South,West South Central,Yes,1.5,Acute,4,Moderate,1,1,3,3,2,1,3,3,3,2,22,44,Severe
+P293,56,Male,Other,Desk_office,No,Midwest,East North Central,Yes,21.3,Chronic,1,Mild,2,0,1,2,0,1,1,0,1,0,8,16,Minimal
+P294,68,Male,Hispanic_Latino,Service,No,South,South Atlantic,Yes,1.6,Acute,9,Severe,4,3,5,4,5,2,3,3,3,2,34,68,Crippled
+P295,72,Male,Black,Desk_office,Yes,West,Mountain,Yes,45,Chronic,0,Mild,2,0,1,1,0,3,0,1,2,0,10,20,Moderate
+P296,31,Male,White,Service,No,Midwest,West North Central,Yes,1.7,Acute,10,Severe,5,4,4,2,2,3,3,2,3,3,31,62,Crippled
+P297,40,Male,Black,Desk_office,No,South,South Atlantic,Yes,1.1,Acute,6,Moderate,2,0,3,3,2,2,3,1,3,2,21,42,Severe
+P298,48,Female,White,Healthcare,No,West,Mountain,Yes,6.1,Subacute,9,Severe,3,4,3,4,4,3,3,4,3,4,35,70,Crippled
+P299,41,Male,Black,Manual_labor,Yes,Northeast,New England,Yes,7.7,Subacute,5,Moderate,3,2,2,2,2,3,1,3,3,2,23,46,Severe
+P300,28,Male,White,Service,No,Midwest,West North Central,Yes,0.9,Acute,9,Severe,3,4,2,2,2,3,2,4,4,4,30,60,Crippled
+P301,49,Female,Black,Manual_labor,No,South,South Atlantic,Yes,9.5,Subacute,4,Moderate,3,2,1,3,1,1,2,0,1,2,16,32,Moderate
+P302,59,Female,White,Desk_office,No,Midwest,East North Central,Yes,10.9,Subacute,8,Severe,5,2,3,2,3,4,2,3,4,3,31,62,Crippled
+P303,35,Female,White,Desk_office,No,West,Mountain,Yes,31.1,Chronic,7,Severe,5,3,3,2,2,3,2,3,5,5,33,66,Crippled
+P304,54,Male,Hispanic_Latino,Service,Unsure,Midwest,East North Central,Yes,4.9,Subacute,5,Moderate,2,1,2,2,1,2,4,0,0,3,17,34,Moderate
+P305,37,Female,Asian,Service,No,South,South Atlantic,Yes,3.2,Subacute,0,Mild,0,1,1,1,1,0,1,0,2,1,8,16,Minimal
+P306,64,Female,Hispanic_Latino,Manual_labor,Yes,Northeast,New England,Yes,1.7,Acute,4,Moderate,2,1,2,3,3,3,1,3,2,1,21,42,Severe
+P307,33,Female,White,Service,Yes,South,East South Central,Yes,18.3,Chronic,6,Moderate,1,3,4,4,3,3,0,2,2,3,25,50,Severe
+P308,78,Female,White,Desk_office,Unsure,West,Mountain,Yes,16.3,Chronic,5,Moderate,1,1,2,2,1,1,1,3,1,2,15,30,Moderate
+P309,30,Female,White,Healthcare,No,West,Mountain,Yes,3.8,Subacute,5,Moderate,3,1,1,1,3,2,1,2,0,3,17,34,Moderate
+P310,20,Female,Hispanic_Latino,Service,No,Northeast,Middle Atlantic,Yes,1,Acute,6,Moderate,3,2,3,3,1,3,3,1,3,2,24,48,Severe
+P311,29,Female,White,Desk_office,No,Midwest,West North Central,Yes,33.2,Chronic,1,Mild,1,0,1,1,3,0,2,2,0,1,11,22,Moderate
+P312,45,Male,White,Manual_labor,Yes,South,East South Central,Yes,5.1,Subacute,7,Severe,3,3,3,3,2,4,4,3,2,5,32,64,Crippled
+P313,66,Female,Asian,Manual_labor,No,West,Mountain,Yes,28.9,Chronic,8,Severe,4,2,2,3,2,3,4,1,5,3,29,58,Severe
+P314,42,Male,White,Healthcare,No,South,South Atlantic,Yes,45.7,Chronic,6,Moderate,3,2,1,3,1,2,2,3,4,2,23,46,Severe
+P315,56,Female,White,Desk_office,No,West,Mountain,Yes,5.5,Subacute,9,Severe,2,2,4,2,2,2,4,3,3,3,27,54,Severe
+P316,68,Female,White,Healthcare,No,West,Mountain,Yes,31.7,Chronic,1,Mild,2,0,2,1,2,0,1,1,2,2,13,26,Moderate
+P317,31,Male,White,Service,No,West,Mountain,Yes,6.6,Subacute,8,Severe,3,3,5,3,3,3,3,3,2,3,31,62,Crippled
+P318,52,Female,White,Desk_office,Unsure,Midwest,East North Central,Yes,1.4,Acute,4,Moderate,2,2,1,0,0,2,2,2,0,2,13,26,Moderate
+P319,27,Male,White,Service,No,Northeast,Middle Atlantic,Yes,5.2,Subacute,9,Severe,3,3,3,3,3,3,3,4,3,3,31,62,Crippled
+P320,67,Female,White,Service,No,Midwest,East North Central,Yes,34.9,Chronic,7,Severe,5,3,2,3,2,3,3,3,4,5,33,66,Crippled
+P321,40,Female,Hispanic_Latino,Service,No,South,South Atlantic,Yes,38.2,Chronic,6,Moderate,2,2,3,3,2,1,3,3,2,3,24,48,Severe
+P322,31,Female,White,Healthcare,No,South,East South Central,Yes,8.3,Subacute,7,Severe,5,4,3,2,3,3,2,4,2,4,32,64,Crippled
+P323,41,Female,Other,Service,Yes,South,South Atlantic,Yes,17.4,Chronic,5,Moderate,0,0,2,2,2,2,2,2,3,3,18,36,Moderate
+P324,20,Female,White,Service,Unsure,West,Pacific,Yes,47,Chronic,0,Mild,0,0,2,1,0,1,1,0,1,0,6,12,Minimal
+P325,28,Male,White,Desk_office,No,West,Mountain,Yes,1,Acute,10,Severe,3,4,1,4,2,3,2,4,3,4,30,60,Crippled
+P326,74,Female,Hispanic_Latino,Healthcare,No,West,Pacific,Yes,1.4,Acute,7,Severe,3,3,3,3,3,3,3,3,3,4,31,62,Crippled
+P327,79,Male,Other,Other,Unsure,West,Mountain,Yes,1.5,Acute,3,Mild,1,1,1,0,2,1,1,0,3,1,11,22,Moderate
+P328,18,Female,Black,Desk_office,Yes,South,West South Central,Yes,46.3,Chronic,7,Severe,3,3,3,2,3,2,4,2,3,2,27,54,Severe
+P329,53,Male,Black,Desk_office,No,South,East South Central,Yes,13.2,Chronic,9,Severe,2,4,3,3,3,2,3,3,2,5,30,60,Crippled
+P330,32,Male,White,Desk_office,No,Midwest,West North Central,Yes,7.5,Subacute,2,Mild,0,1,2,0,2,1,3,0,4,0,13,26,Moderate
+P331,47,Male,Black,Healthcare,No,South,East South Central,Yes,1.2,Acute,5,Moderate,2,1,3,1,1,3,3,1,1,2,18,36,Moderate
+P332,57,Male,White,Manual_labor,Yes,West,Pacific,Yes,5,Subacute,4,Moderate,0,3,1,2,1,2,2,2,1,3,17,34,Moderate
+P333,50,Female,White,Desk_office,No,Northeast,Middle Atlantic,Yes,33.5,Chronic,6,Moderate,2,2,3,1,2,1,5,2,1,5,24,48,Severe
+P334,41,Male,Black,Manual_labor,No,Midwest,East North Central,Yes,8.9,Subacute,9,Severe,2,4,2,5,2,1,2,3,4,2,27,54,Severe
+P335,73,Female,White,Desk_office,No,West,Mountain,Yes,20.4,Chronic,4,Moderate,2,4,3,2,1,3,2,2,2,3,24,48,Severe
+P336,55,Female,Hispanic_Latino,Other,No,South,South Atlantic,Yes,12,Subacute,7,Severe,3,4,2,1,3,4,1,4,3,4,29,58,Severe
+P337,63,Female,Hispanic_Latino,Desk_office,No,Northeast,New England,Yes,3.4,Subacute,6,Moderate,1,3,2,2,1,3,1,1,2,5,21,42,Severe
+P338,66,Male,Black,Manual_labor,No,Northeast,New England,Yes,21,Chronic,9,Severe,4,1,3,2,2,4,4,2,3,2,27,54,Severe
+P339,26,Female,Asian,Service,No,South,East South Central,Yes,8.4,Subacute,6,Moderate,3,2,2,1,1,2,2,2,1,3,19,38,Moderate
+P340,50,Male,Black,Other,Yes,Northeast,Middle Atlantic,Yes,1.9,Acute,6,Moderate,2,3,2,4,1,4,2,1,3,2,24,48,Severe
+P341,41,Male,Black,Desk_office,No,South,West South Central,Yes,14.2,Chronic,8,Severe,4,4,2,1,5,3,2,4,4,4,33,66,Crippled
+P342,44,Female,Black,Manual_labor,No,South,South Atlantic,Yes,11.4,Subacute,3,Mild,2,0,1,0,1,2,0,2,0,2,10,20,Moderate
+P343,24,Female,White,Service,No,South,South Atlantic,Yes,9.4,Subacute,7,Severe,4,2,3,3,4,2,2,3,2,3,28,56,Severe
+P344,44,Female,Black,Desk_office,Unsure,South,West South Central,Yes,16.2,Chronic,2,Mild,1,1,0,0,0,0,1,3,0,0,6,12,Minimal
+P345,19,Female,White,Service,No,West,Mountain,Yes,40.7,Chronic,7,Severe,3,3,4,3,2,2,3,3,4,4,31,62,Crippled
+P346,54,Male,Hispanic_Latino,Manual_labor,No,South,East South Central,Yes,32.9,Chronic,4,Moderate,4,3,1,2,3,3,1,1,2,3,23,46,Severe
+P347,53,Female,White,Manual_labor,No,West,Mountain,Yes,12,Subacute,9,Severe,5,4,2,4,3,3,2,1,4,1,29,58,Severe
+P348,48,Female,White,Service,No,West,Pacific,Yes,3.8,Subacute,3,Mild,1,0,1,2,0,1,1,0,0,1,7,14,Minimal
+P349,65,Female,White,Service,Unsure,Midwest,West North Central,Yes,1.6,Acute,4,Moderate,2,1,5,3,2,2,3,4,3,2,27,54,Severe
+P350,78,Female,Black,Desk_office,No,Northeast,New England,Yes,6.7,Subacute,7,Severe,2,2,3,3,0,4,1,3,4,5,27,54,Severe
+P351,77,Female,Black,Service,Yes,Northeast,Middle Atlantic,Yes,0.9,Acute,6,Moderate,1,2,2,1,2,3,1,2,0,2,16,32,Moderate
+P352,50,Female,White,Healthcare,Unsure,South,West South Central,Yes,30.1,Chronic,9,Severe,3,2,2,1,3,3,3,2,2,4,25,50,Severe
+P353,39,Female,White,Service,No,South,West South Central,Yes,1.5,Acute,10,Severe,3,4,4,2,2,4,0,3,2,3,27,54,Severe
+P354,58,Female,White,Desk_office,Yes,South,South Atlantic,Yes,11.7,Subacute,1,Mild,2,1,0,2,2,1,1,1,0,0,10,20,Moderate
+P355,23,Male,White,Manual_labor,No,Northeast,Middle Atlantic,Yes,27.4,Chronic,7,Severe,2,3,4,3,3,0,3,4,1,3,26,52,Severe
+P356,69,Male,White,Service,No,South,South Atlantic,Yes,17.2,Chronic,9,Severe,4,4,5,2,4,4,2,0,2,3,30,60,Crippled
+P357,24,Female,White,Desk_office,Unsure,Midwest,East North Central,Yes,1.4,Acute,3,Mild,2,2,0,2,0,1,4,1,1,0,13,26,Moderate
+P358,40,Female,Black,Desk_office,Yes,West,Mountain,Yes,41.2,Chronic,7,Severe,2,3,3,2,4,3,3,4,4,3,31,62,Crippled
+P359,54,Female,Black,Desk_office,Unsure,South,South Atlantic,Yes,6.1,Subacute,0,Mild,0,2,2,0,1,0,2,2,2,1,12,24,Moderate
+P360,46,Male,Black,Service,No,South,East South Central,Yes,4.1,Subacute,4,Moderate,3,3,1,1,1,2,2,2,3,2,20,40,Severe
+P361,53,Male,Black,Service,No,South,East South Central,Yes,20.2,Chronic,5,Moderate,1,2,3,2,2,0,1,3,1,3,18,36,Moderate
+P362,46,Female,Hispanic_Latino,Service,No,West,Mountain,Yes,51.2,Chronic,5,Moderate,3,3,2,0,1,4,2,1,2,3,21,42,Severe
+P363,45,Male,White,Desk_office,No,South,West South Central,Yes,1.2,Acute,4,Moderate,0,2,4,0,0,1,3,3,1,3,17,34,Moderate
+P364,51,Female,White,Service,Unsure,Midwest,West North Central,Yes,0.7,Acute,10,Severe,1,4,3,4,2,2,3,1,3,2,25,50,Severe
+P365,20,Male,White,Manual_labor,No,West,Pacific,Yes,27.4,Chronic,10,Severe,2,3,5,3,3,5,2,5,4,2,34,68,Crippled
+P366,77,Female,Black,Service,Unsure,South,West South Central,Yes,23.3,Chronic,0,Mild,2,1,1,0,3,3,2,1,1,0,14,28,Moderate
+P367,78,Female,White,Desk_office,Yes,South,West South Central,Yes,1.3,Acute,8,Severe,3,3,2,2,4,3,2,4,2,5,30,60,Crippled
+P368,60,Female,Black,Manual_labor,No,South,South Atlantic,Yes,5.6,Subacute,2,Mild,3,2,0,0,2,1,1,2,0,1,12,24,Moderate
+P369,78,Female,White,Service,No,Midwest,West North Central,Yes,1,Acute,7,Severe,4,1,4,3,5,2,2,3,3,3,30,60,Crippled
+P370,27,Female,Other,Service,No,South,East South Central,Yes,5.1,Subacute,5,Moderate,2,1,1,2,2,2,2,3,0,2,17,34,Moderate
+P371,79,Male,White,Service,Yes,Northeast,New England,Yes,39.1,Chronic,0,Mild,3,1,2,0,1,1,2,2,0,2,14,28,Moderate
+P372,53,Male,Hispanic_Latino,Desk_office,Unsure,South,South Atlantic,Yes,0.8,Acute,10,Severe,3,3,5,5,4,3,2,3,3,4,35,70,Crippled
+P373,27,Female,White,Manual_labor,Yes,Midwest,East North Central,Yes,1.6,Acute,9,Severe,3,4,4,3,3,3,4,2,3,4,33,66,Crippled
+P374,57,Female,White,Desk_office,No,South,East South Central,Yes,0.6,Acute,5,Moderate,2,3,2,3,1,1,4,2,3,1,22,44,Severe
+P375,41,Female,Hispanic_Latino,Manual_labor,No,South,East South Central,Yes,1.3,Acute,6,Moderate,3,0,1,2,3,2,2,3,3,3,22,44,Severe
+P376,36,Male,White,Desk_office,Yes,West,Mountain,Yes,2.1,Subacute,5,Moderate,2,2,2,3,2,1,3,4,0,4,23,46,Severe
+P377,51,Male,White,Manual_labor,No,South,South Atlantic,Yes,2.7,Subacute,9,Severe,3,3,4,1,3,2,4,4,4,5,33,66,Crippled
+P378,76,Male,Hispanic_Latino,Manual_labor,No,West,Mountain,Yes,6.5,Subacute,6,Moderate,1,2,2,2,3,3,1,1,1,3,19,38,Moderate
+P379,37,Male,White,Desk_office,Yes,Midwest,East North Central,Yes,12.1,Chronic,7,Severe,3,2,3,3,2,5,2,2,2,5,29,58,Severe
+P380,78,Female,White,Other,No,Midwest,West North Central,Yes,16.6,Chronic,9,Severe,2,4,3,3,4,4,3,5,3,3,34,68,Crippled
+P381,70,Male,White,Desk_office,Yes,Midwest,West North Central,Yes,0.6,Acute,9,Severe,3,3,4,4,3,3,3,3,3,3,32,64,Crippled
+P382,54,Male,Asian,Desk_office,No,West,Mountain,Yes,19.4,Chronic,10,Severe,2,3,5,4,3,4,4,4,3,2,34,68,Crippled
+P383,41,Male,White,Healthcare,No,South,South Atlantic,Yes,1.1,Acute,6,Moderate,3,2,0,1,2,1,2,2,3,2,18,36,Moderate
+P384,48,Female,Other,Desk_office,No,South,South Atlantic,Yes,5.2,Subacute,3,Mild,2,2,0,2,2,2,0,1,0,2,13,26,Moderate
+P385,21,Female,Hispanic_Latino,Desk_office,No,South,West South Central,Yes,2.8,Subacute,4,Moderate,0,2,0,1,1,1,1,3,1,2,12,24,Moderate
+P386,43,Male,White,Desk_office,Yes,West,Mountain,Yes,42.5,Chronic,6,Moderate,1,2,3,3,1,0,2,2,3,3,20,40,Severe
+P387,25,Female,White,Healthcare,Yes,South,South Atlantic,Yes,11.1,Subacute,8,Severe,3,4,5,3,3,3,4,3,2,4,34,68,Crippled
+P388,43,Male,Black,Healthcare,Yes,Northeast,Middle Atlantic,Yes,44.4,Chronic,6,Moderate,4,1,3,2,0,1,2,0,0,0,13,26,Moderate
+P389,24,Female,White,Healthcare,No,West,Pacific,Yes,5.7,Subacute,6,Moderate,3,2,2,2,2,2,5,3,5,2,28,56,Severe
+P390,34,Female,White,Desk_office,No,Midwest,East North Central,Yes,8.9,Subacute,5,Moderate,2,2,2,1,1,3,2,2,2,2,19,38,Moderate
+P391,61,Female,White,Manual_labor,No,South,East South Central,Yes,0.9,Acute,6,Moderate,2,3,3,1,4,2,3,3,3,3,27,54,Severe
+P392,61,Male,Hispanic_Latino,Healthcare,No,Midwest,West North Central,Yes,29,Chronic,1,Mild,1,0,1,1,0,1,1,0,0,3,8,16,Minimal
+P393,79,Male,Hispanic_Latino,Desk_office,No,West,Mountain,Yes,0.7,Acute,4,Moderate,3,1,2,3,1,1,1,4,1,2,19,38,Moderate
+P394,47,Female,Hispanic_Latino,Desk_office,No,West,Mountain,Yes,7.4,Subacute,9,Severe,3,1,4,3,4,2,2,3,3,4,29,58,Severe
+P395,62,Male,White,Desk_office,Yes,Midwest,East North Central,Yes,47.8,Chronic,1,Mild,0,2,0,1,1,0,0,1,1,0,6,12,Minimal
+P396,25,Female,White,Service,Yes,Northeast,New England,Yes,15.5,Chronic,3,Mild,2,2,0,2,0,2,1,2,0,2,13,26,Moderate
+P397,23,Female,Black,Desk_office,No,Northeast,Middle Atlantic,Yes,13.7,Chronic,4,Moderate,3,3,1,1,2,2,2,1,2,1,18,36,Moderate
+P398,30,Male,Black,Manual_labor,Yes,Midwest,East North Central,Yes,16.2,Chronic,6,Moderate,2,2,1,4,4,3,3,2,2,1,24,48,Severe
+P399,22,Female,Black,Desk_office,No,West,Mountain,Yes,1.4,Acute,4,Moderate,2,3,2,1,1,2,1,2,2,3,19,38,Moderate
+P400,69,Male,White,Manual_labor,Yes,West,Mountain,Yes,1,Acute,1,Mild,3,2,2,2,1,1,2,2,1,1,17,34,Moderate
+P401,57,Female,White,Other,No,South,South Atlantic,Yes,1.4,Acute,8,Severe,4,3,2,3,5,2,3,3,3,3,31,62,Crippled
+P402,25,Female,White,Desk_office,No,South,West South Central,Yes,10.1,Subacute,6,Moderate,2,0,3,1,2,2,1,1,3,2,17,34,Moderate
+P403,67,Male,Hispanic_Latino,Desk_office,No,South,South Atlantic,Yes,8.6,Subacute,6,Moderate,2,1,4,3,0,4,1,1,3,3,22,44,Severe
+P404,30,Female,White,Service,No,South,West South Central,Yes,26.9,Chronic,9,Severe,1,4,2,2,1,3,2,3,5,3,26,52,Severe
+P405,74,Female,Black,Manual_labor,No,Northeast,New England,Yes,4.9,Subacute,4,Moderate,3,2,2,2,3,4,3,1,2,2,24,48,Severe
+P406,21,Male,White,Manual_labor,No,Northeast,New England,Yes,0.6,Acute,5,Moderate,3,2,4,2,1,3,2,1,2,2,22,44,Severe
+P407,43,Female,White,Other,Unsure,Midwest,East North Central,Yes,1,Acute,4,Moderate,3,2,1,3,3,2,3,3,1,3,24,48,Severe
+P408,23,Male,White,Desk_office,Yes,West,Mountain,Yes,3.1,Subacute,10,Severe,4,4,4,4,2,2,1,3,2,4,30,60,Crippled
+P409,22,Female,Hispanic_Latino,Service,Yes,Midwest,West North Central,Yes,1.2,Acute,9,Severe,3,2,5,3,2,3,3,3,4,3,31,62,Crippled
+P410,62,Female,White,Healthcare,Unsure,South,West South Central,Yes,0.6,Acute,5,Moderate,4,1,0,2,1,0,2,3,4,3,20,40,Severe
+P411,72,Female,White,Healthcare,No,Midwest,West North Central,Yes,10,Subacute,4,Moderate,3,2,4,3,1,4,1,2,2,3,25,50,Severe
+P412,59,Female,White,Manual_labor,Yes,Northeast,Middle Atlantic,Yes,1,Acute,5,Moderate,2,3,1,3,2,2,1,1,3,2,20,40,Severe
+P413,45,Female,Black,Healthcare,No,South,South Atlantic,Yes,1.1,Acute,5,Moderate,3,1,2,2,1,1,5,1,2,3,21,42,Severe
+P414,23,Male,Hispanic_Latino,Other,No,South,West South Central,Yes,17,Chronic,8,Severe,5,3,3,4,3,2,4,3,3,2,32,64,Crippled
+P415,50,Male,Hispanic_Latino,Manual_labor,No,South,West South Central,Yes,31,Chronic,3,Mild,1,1,0,2,1,0,0,1,1,0,7,14,Minimal
+P416,78,Female,White,Desk_office,Yes,South,West South Central,Yes,20.7,Chronic,8,Severe,2,2,3,3,3,0,4,4,2,2,25,50,Severe
+P417,75,Male,White,Manual_labor,No,South,South Atlantic,Yes,51.1,Chronic,4,Moderate,3,2,2,2,2,3,3,2,1,2,22,44,Severe
+P418,62,Female,White,Manual_labor,No,South,South Atlantic,Yes,44.1,Chronic,10,Severe,2,2,3,5,3,4,2,2,3,5,31,62,Crippled
+P419,59,Female,White,Service,No,South,West South Central,Yes,1.4,Acute,4,Moderate,1,2,1,1,3,3,2,4,1,3,21,42,Severe
+P420,22,Female,White,Manual_labor,No,Midwest,West North Central,Yes,10.4,Subacute,8,Severe,4,2,3,4,1,1,2,3,2,4,26,52,Severe
+P421,70,Female,Hispanic_Latino,Desk_office,No,South,West South Central,Yes,1.3,Acute,10,Severe,3,1,4,3,3,4,2,4,3,3,30,60,Crippled
+P422,60,Female,Asian,Desk_office,Yes,Midwest,East North Central,Yes,5.8,Subacute,6,Moderate,2,2,4,0,3,1,2,2,2,2,20,40,Severe
+P423,59,Male,Hispanic_Latino,Desk_office,No,Northeast,Middle Atlantic,Yes,1.3,Acute,1,Mild,1,0,2,1,2,2,1,1,0,2,12,24,Moderate
+P424,30,Female,Hispanic_Latino,Desk_office,No,South,East South Central,Yes,11.2,Subacute,4,Moderate,1,1,3,1,1,3,2,2,2,0,16,32,Moderate
+P425,64,Female,Black,Desk_office,Yes,West,Pacific,Yes,17.9,Chronic,3,Mild,1,0,0,2,0,3,0,0,2,0,8,16,Minimal
+P426,62,Female,White,Manual_labor,No,South,East South Central,Yes,1,Acute,4,Moderate,1,2,2,1,3,2,2,3,2,1,19,38,Moderate
+P427,80,Male,Black,Desk_office,No,South,South Atlantic,Yes,6.3,Subacute,7,Severe,2,3,4,3,3,3,3,2,2,4,29,58,Severe
+P428,37,Female,Black,Manual_labor,No,Midwest,West North Central,Yes,45.3,Chronic,5,Moderate,3,2,2,3,2,3,4,1,1,2,23,46,Severe
+P429,49,Male,Hispanic_Latino,Desk_office,Yes,South,West South Central,Yes,1.2,Acute,9,Severe,2,4,3,3,4,2,3,1,3,3,28,56,Severe
+P430,37,Male,Black,Manual_labor,No,Midwest,East North Central,Yes,10.4,Subacute,6,Moderate,1,2,0,1,3,3,2,0,2,1,15,30,Moderate
+P431,39,Female,Black,Manual_labor,Yes,South,East South Central,Yes,5.8,Subacute,5,Moderate,2,3,1,3,0,2,1,2,2,3,19,38,Moderate
+P432,70,Female,White,Other,No,South,East South Central,Yes,1.9,Acute,5,Moderate,2,1,1,3,3,0,1,2,1,2,16,32,Moderate
+P433,28,Female,White,Service,Unsure,South,East South Central,Yes,19.7,Chronic,8,Severe,3,2,4,4,5,4,2,2,3,2,31,62,Crippled
+P434,27,Female,Asian,Manual_labor,Unsure,West,Mountain,Yes,34.4,Chronic,6,Moderate,3,0,4,0,3,0,4,2,1,4,21,42,Severe
+P435,53,Female,Asian,Desk_office,No,Midwest,East North Central,Yes,15,Chronic,10,Severe,1,5,2,2,4,3,3,3,4,3,30,60,Crippled
+P436,38,Male,Hispanic_Latino,Manual_labor,Yes,South,West South Central,Yes,20.6,Chronic,9,Severe,3,4,3,4,3,3,2,5,3,2,32,64,Crippled
+P437,23,Male,White,Desk_office,No,West,Mountain,Yes,9.8,Subacute,4,Moderate,1,1,2,4,3,3,4,3,1,3,25,50,Severe
+P438,59,Male,Black,Healthcare,Unsure,West,Pacific,Yes,1.2,Acute,10,Severe,4,3,4,4,4,3,3,1,2,4,32,64,Crippled
+P439,70,Male,Hispanic_Latino,Manual_labor,No,West,Mountain,Yes,3.1,Subacute,7,Severe,3,3,5,3,3,3,3,1,5,4,33,66,Crippled
+P440,18,Female,White,Desk_office,Yes,West,Pacific,Yes,1.5,Acute,5,Moderate,1,1,2,2,3,1,3,2,0,2,17,34,Moderate
+P441,32,Female,Hispanic_Latino,Healthcare,Yes,South,West South Central,Yes,7.4,Subacute,10,Severe,4,5,3,3,2,3,4,3,4,4,35,70,Crippled
+P442,70,Female,White,Manual_labor,No,South,East South Central,Yes,9.4,Subacute,9,Severe,2,3,1,4,3,3,4,3,4,4,31,62,Crippled
+P443,58,Female,White,Desk_office,No,West,Pacific,Yes,4.6,Subacute,5,Moderate,2,0,3,2,3,4,2,3,1,3,23,46,Severe
+P444,48,Female,White,Desk_office,No,Northeast,Middle Atlantic,Yes,41.9,Chronic,7,Severe,4,4,3,3,3,2,3,4,4,3,33,66,Crippled
+P445,55,Female,White,Desk_office,No,West,Pacific,Yes,1.2,Acute,4,Moderate,2,2,1,3,4,3,3,3,3,0,24,48,Severe
+P446,56,Male,White,Desk_office,Yes,South,South Atlantic,Yes,1.7,Acute,10,Severe,2,4,2,2,3,1,4,0,2,5,25,50,Severe
+P447,37,Female,White,Desk_office,No,West,Mountain,Yes,1.4,Acute,5,Moderate,3,1,1,2,1,1,3,2,2,2,18,36,Moderate
+P448,24,Male,White,Service,Unsure,South,West South Central,Yes,11.1,Subacute,10,Severe,3,1,2,4,3,2,3,4,3,2,27,54,Severe
+P449,74,Male,White,Manual_labor,No,Midwest,West North Central,Yes,49.3,Chronic,5,Moderate,3,3,2,2,2,2,2,0,2,2,20,40,Severe
+P450,47,Female,Hispanic_Latino,Service,No,Northeast,New England,Yes,1.9,Acute,9,Severe,2,2,3,3,4,3,4,2,3,4,30,60,Crippled
+P451,34,Male,White,Manual_labor,No,South,South Atlantic,Yes,1.6,Acute,10,Severe,3,4,4,0,3,2,3,3,3,4,29,58,Severe
+P452,35,Male,Black,Desk_office,Yes,South,East South Central,Yes,41.7,Chronic,9,Severe,2,4,3,2,4,5,3,5,3,3,34,68,Crippled
+P453,31,Female,White,Desk_office,No,Midwest,West North Central,Yes,10.5,Subacute,7,Severe,1,2,2,2,5,4,0,3,3,2,24,48,Severe
+P454,64,Male,White,Desk_office,Yes,Midwest,East North Central,Yes,2.2,Subacute,5,Moderate,1,2,2,2,2,2,2,3,2,3,21,42,Severe
+P455,45,Male,White,Desk_office,No,Northeast,Middle Atlantic,Yes,0.7,Acute,6,Moderate,2,2,3,2,4,1,3,3,3,2,25,50,Severe
+P456,21,Female,White,Manual_labor,No,South,South Atlantic,Yes,5.7,Subacute,4,Moderate,2,3,1,4,3,2,2,1,2,0,20,40,Severe
+P457,39,Female,White,Desk_office,No,South,West South Central,Yes,1.6,Acute,5,Moderate,3,3,0,1,3,1,3,2,2,2,20,40,Severe
+P458,58,Male,White,Manual_labor,No,Northeast,New England,Yes,40.7,Chronic,9,Severe,4,2,2,3,3,4,4,4,4,0,30,60,Crippled
+P459,66,Male,White,Manual_labor,Unsure,West,Pacific,Yes,3.7,Subacute,9,Severe,4,4,3,3,4,4,2,2,1,3,30,60,Crippled
+P460,44,Female,White,Other,Yes,Midwest,West North Central,Yes,23,Chronic,4,Moderate,0,2,2,4,2,1,2,2,2,3,20,40,Severe
+P461,72,Female,White,Service,Yes,South,West South Central,Yes,9.1,Subacute,10,Severe,3,2,1,2,1,2,3,3,5,3,25,50,Severe
+P462,59,Female,Hispanic_Latino,Manual_labor,Unsure,South,East South Central,Yes,16.4,Chronic,0,Mild,1,1,2,1,0,2,2,2,0,1,12,24,Moderate
+P463,55,Female,Asian,Service,Yes,West,Pacific,Yes,12.1,Chronic,2,Mild,1,2,1,3,0,1,0,2,0,1,11,22,Moderate
+P464,31,Male,Hispanic_Latino,Other,Yes,West,Mountain,Yes,10.7,Subacute,8,Severe,2,2,2,4,5,2,3,3,3,3,29,58,Severe
+P465,25,Female,White,Manual_labor,No,Northeast,Middle Atlantic,Yes,5.2,Subacute,5,Moderate,1,2,3,2,3,2,3,0,0,3,19,38,Moderate
+P466,50,Female,White,Desk_office,No,South,East South Central,Yes,10.1,Subacute,7,Severe,3,4,1,2,3,2,1,3,4,3,26,52,Severe
+P467,38,Female,White,Healthcare,No,South,South Atlantic,Yes,36.3,Chronic,4,Moderate,3,0,1,2,3,3,1,1,1,2,17,34,Moderate
+P468,32,Female,White,Desk_office,No,South,South Atlantic,Yes,45.6,Chronic,6,Moderate,2,3,3,2,1,3,1,2,0,3,20,40,Severe
+P469,73,Male,Black,Manual_labor,No,South,South Atlantic,Yes,1.4,Acute,6,Moderate,0,2,2,2,3,5,2,2,1,0,19,38,Moderate
+P470,50,Male,White,Manual_labor,No,West,Mountain,Yes,1.6,Acute,4,Moderate,2,0,1,3,1,2,1,2,2,2,16,32,Moderate
+P471,30,Male,White,Desk_office,Yes,Northeast,Middle Atlantic,Yes,7.1,Subacute,8,Severe,2,4,3,4,4,0,2,4,3,2,28,56,Severe
+P472,80,Female,Hispanic_Latino,Desk_office,No,South,East South Central,Yes,40.2,Chronic,5,Moderate,2,2,2,3,3,2,2,1,2,3,22,44,Severe
+P473,46,Female,White,Desk_office,Yes,South,South Atlantic,Yes,45,Chronic,0,Mild,1,1,2,1,1,2,1,0,2,0,11,22,Moderate
+P474,44,Female,White,Manual_labor,No,Northeast,New England,Yes,16.7,Chronic,8,Severe,3,4,3,3,1,4,2,2,2,1,25,50,Severe
+P475,51,Male,Hispanic_Latino,Service,Unsure,West,Pacific,Yes,3.8,Subacute,4,Moderate,1,2,1,1,2,3,4,3,2,4,23,46,Severe
+P476,30,Female,White,Healthcare,Yes,South,South Atlantic,Yes,1.9,Acute,5,Moderate,1,2,3,2,3,2,4,2,2,1,22,44,Severe
+P477,60,Female,White,Desk_office,Unsure,West,Mountain,Yes,4.9,Subacute,6,Moderate,0,1,2,2,5,2,1,4,3,1,21,42,Severe
+P478,69,Female,White,Service,No,Midwest,East North Central,Yes,6.9,Subacute,5,Moderate,2,3,3,2,3,0,4,0,1,2,20,40,Severe
+P479,70,Female,Black,Manual_labor,No,Midwest,West North Central,Yes,16,Chronic,9,Severe,3,3,4,2,5,2,4,3,3,3,32,64,Crippled
+P480,30,Male,Hispanic_Latino,Manual_labor,No,South,South Atlantic,Yes,24.3,Chronic,10,Severe,3,3,5,3,2,3,2,3,5,4,33,66,Crippled
+P481,51,Female,White,Healthcare,No,South,East South Central,Yes,50.9,Chronic,1,Mild,1,2,1,1,0,1,1,1,1,3,12,24,Moderate
+P482,50,Female,White,Service,No,South,South Atlantic,Yes,31.3,Chronic,10,Severe,2,2,3,2,3,1,5,2,3,3,26,52,Severe
+P483,39,Female,White,Healthcare,No,South,East South Central,Yes,1.6,Acute,4,Moderate,1,1,1,2,2,2,2,3,3,3,20,40,Severe
+P484,37,Female,White,Other,No,West,Mountain,Yes,8.7,Subacute,4,Moderate,3,1,3,1,2,2,1,0,3,1,17,34,Moderate
+P485,66,Female,White,Manual_labor,Unsure,South,West South Central,Yes,0.9,Acute,5,Moderate,4,2,1,1,1,1,2,2,2,1,17,34,Moderate
+P486,37,Female,White,Manual_labor,Yes,West,Pacific,Yes,2.3,Subacute,7,Severe,3,4,1,4,4,3,5,4,4,4,36,72,Crippled
+P487,64,Male,White,Manual_labor,No,West,Pacific,Yes,3,Subacute,10,Severe,3,4,3,3,3,2,1,3,3,2,27,54,Severe
+P488,34,Female,Hispanic_Latino,Healthcare,Yes,West,Mountain,Yes,1.9,Acute,4,Moderate,0,3,2,1,3,3,3,1,1,1,18,36,Moderate
+P489,51,Female,White,Healthcare,Yes,Northeast,Middle Atlantic,Yes,1.9,Acute,9,Severe,4,3,4,5,2,1,4,3,2,4,32,64,Crippled
+P490,80,Male,Black,Manual_labor,Yes,Northeast,Middle Atlantic,Yes,9.2,Subacute,5,Moderate,2,2,1,2,1,1,0,4,3,2,18,36,Moderate
+P491,53,Male,Black,Healthcare,No,Midwest,East North Central,Yes,45,Chronic,5,Moderate,3,1,4,1,3,2,2,0,0,2,18,36,Moderate
+P492,79,Male,White,Service,Yes,South,East South Central,Yes,11.5,Subacute,5,Moderate,3,2,2,4,4,3,3,2,1,1,25,50,Severe
+P493,57,Female,White,Manual_labor,No,West,Mountain,Yes,46,Chronic,4,Moderate,2,3,2,4,2,3,2,3,0,2,23,46,Severe
+P494,28,Female,Black,Service,No,Midwest,West North Central,Yes,1.8,Acute,6,Moderate,3,2,3,2,2,3,4,1,2,1,23,46,Severe
+P495,23,Female,White,Desk_office,Yes,South,East South Central,Yes,0.9,Acute,6,Moderate,1,2,2,3,2,0,1,2,3,3,19,38,Moderate
+P496,49,Female,Hispanic_Latino,Other,No,South,West South Central,Yes,5.7,Subacute,2,Mild,1,0,0,1,1,2,1,1,0,2,9,18,Minimal
+P497,26,Female,White,Desk_office,Yes,South,South Atlantic,Yes,6.4,Subacute,6,Moderate,0,4,2,2,2,0,3,1,3,3,20,40,Severe
+P498,80,Female,White,Desk_office,No,West,Mountain,Yes,1.7,Acute,5,Moderate,2,3,3,2,2,3,2,2,3,2,24,48,Severe
+P499,62,Male,Hispanic_Latino,Desk_office,No,South,South Atlantic,Yes,37.7,Chronic,5,Moderate,0,2,2,3,1,0,3,1,3,1,16,32,Moderate
+P500,23,Female,White,Service,Yes,South,East South Central,Yes,0.5,Acute,7,Severe,3,3,2,1,2,4,4,4,2,2,27,54,Severe
